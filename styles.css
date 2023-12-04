@@ -1,0 +1,57 @@
+body {
+  background: #f9f7fe;
+}
+main {
+  background: white;
+  border-radius: 15px;
+  width: 40%;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 50px;
+}
+form {
+  text-align: center;
+  padding-bottom: 20px;
+}
+h1 {
+  text-align: center;
+}
+.search-bar {
+  padding: 20px 100px;
+  border-radius: 15px;
+}
+.search-button {
+  background: purple;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.current-details {
+  line-height: 40px;
+}
+.weeks-weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.current-weather strong {
+  color: red;
+  font-weight: 900;
+}
+.current-weather h3 {
+  font-size: 48px;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+}
+
+footer {
+  text-align: center;
+}

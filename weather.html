@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Today's Date</h1>
+      <div class="form-input">
+        <form id="city-form">
+          <input
+            type="text"
+            placeholder="Enter a city..."
+            class="search-bar"
+            id="city-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+        <hr />
+      </div>
+      <div class="current-weather">
+        <div class="current-city">
+          <div>
+            <h2 id="current-city">Miami, FL, USA</h2>
+          </div>
+          <div class="current-details">
+            Monday 65:80, Sunny <br />
+            Humidity: <strong>80%,</strong> Wind: <strong>5 mph</strong>
+          </div>
+        </div>
+        <h3 id="currentTemp">☀️80° F</h3>
+      </div>
+    </main>
+    <div class="weeks-weather">
+      <ul>
+        <li>Tue⛅</li>
+        <p><strong>65°F</strong>-80°F</p>
+        <li>Wed⛅</li>
+        <p><strong>65°F</strong>-80°F</p>
+        <li>Thu🌧️</li>
+        <p><strong>65°F</strong>-80°F</p>
+        <li>Fri⛅</li>
+        <p><strong>65°F</strong>-80°F</p>
+        <li>Sat🌧️</li>
+        <p><strong>65°F</strong>-80°F</p>
+      </ul>
+    </div>
+    <footer>This project was coded by Astry Brana</footer>
+    <script src="weather.js"></script>
+  </body>
+</html>
